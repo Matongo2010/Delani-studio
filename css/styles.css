@@ -7,8 +7,12 @@
 
     background-size: cover;
     background-repeat: no-repeat;
-    height: 669px;
+    height: px;
+    color: white;
 
+}
+h1{
+    padding-top: 100px;
 }
 
 h1,p{
@@ -18,5 +22,8 @@ h1,p{
 .services{
     background-image: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg');
 
-    
+    color: white;
+
+
 }
+
