@@ -51,8 +51,8 @@
 
         </div>
         <div class="col-4">
-            <div class="container dev">
-                <img id="development-toggle" src="images/dev_icon.png" alt="DEVELOPMENT">
+            <div class="container dev development-toggle">
+                <img src="images/dev_icon.png" alt="DEVELOPMENT">
             </div>
 
             <h3>DEVELOPMENT</h3>
@@ -62,8 +62,8 @@
 
         </div>
         <div class="col-4">
-            <div class="container dev">
-                <img id="product" src="images/product_icon.png" alt="PRODUCT MANAGEMENT">
+            <div class="container dev product-toggle">
+                <img src="images/product_icon.png" alt="PRODUCT MANAGEMENT">
             </div>
 
             <h3>PRODUCT MANAGEMENT</h3>
@@ -142,8 +142,19 @@
             $(".design-toggle").click(function() {
                 $("#design").toggle();
 
+  
+            });
+
+            $(".development-toggle").click(function() {
+                $("#development").toggle();
                 
+  
+            });
+
+            $(".product-toggle").click(function() {
+                $("#product").toggle();
                 
+  
             });
         });
     </script>
