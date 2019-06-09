@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani-studio</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -16,14 +14,15 @@
     <div class="background">
         <div class="container">
             <img src="images/logo.png">
-            <h1>WELCOME TO DELANI STUDIO</h1>
+            <h1>WELCOME <br>TO DELANI STUDIO<br></h1>
             <p>AMAZING PEOPLE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</p>
             <img src="images/mouse_click.png">
 
         </div>
     </div>
     <h2>ABOUT US</h2>
-    <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development
+    <p>When you work with us, you ar</div>e part of a team of committed collaborators. All aspects of our software
+        development
         process are intergrated, interactive <br>and agile<br>.</p>
     <p>Our approach unifies design,development and product management to create exceptional products.</p>
     <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>
@@ -36,38 +35,49 @@
         <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
     </div>
     <H2>WHAT WE DO</H2>
+    <br>
+    <br>
     <div class="row">
         <div class="col-4">
-            <img src="images/design_icon.png" alt="DESIGN">
-            <h3>DESIGN</h3>
-            <P>Our design practice offers a full range of services including branding strategy, interaction and visual
+            <div class="container dev design-toggle">
+                <img src="images/design_icon.png" alt="DESIGN">
+            </div>
+            <h3 id=>DESIGN</h3>
+            <P id="design">Our design practice offers a full range of services including branding strategy, interaction
+                and visual
                 design and user experience testing. Throughout your project, our designers create and implement visual
                 designs and workflows solicit user feedback, and work with you to make sure what gets built is what is
                 needed.</P>
 
         </div>
         <div class="col-4">
-            <img src="images/dev_icon.png" alt="DEVELOPMENT">
+            <div class="container dev">
+                <img id="development-toggle" src="images/dev_icon.png" alt="DEVELOPMENT">
+            </div>
 
             <h3>DEVELOPMENT</h3>
-            <p>All engineers are fluent in the latest, mobile and web development technologies. They collaborate with
+            <p id="development">All engineers are fluent in the latest, mobile and web development technologies. They collaborate with
                 your team to write, test and omprove code on daily basis, using proven practices such as test-driven
                 development and pair programming.</p>
 
         </div>
         <div class="col-4">
-            <img src="images/product_icon.png" alt="PRODUCT MANAGEMENT">
+            <div class="container dev">
+                <img id="product" src="images/product_icon.png" alt="PRODUCT MANAGEMENT">
+            </div>
 
             <h3>PRODUCT MANAGEMENT</h3>
-            <p>Planning ad development iteretive. Because we are constantly coding and testing, the product we build are
+            <p id="product">Planning ad development iteretive. Because we are constantly coding and testing, the product we build are
                 always to go live. This iteretive process allows for changes as business requirements evolve.</p>
 
         </div>
-        <h2>PORTIFOLIO</h2>
+        <div class="container">
+            <h2>PORTIFOLIO</h2>
+        </div>
         <div class="row">
             <div class="col-3">
                 <img src="images/work4.jpg">
-            </div>
+                <link rel="stylesheet" href="script.js"></div>
             <div class="col-3">
                 <img src="images/work3.jpg">
             </div>
@@ -93,8 +103,50 @@
                 <img src="images/work8.jpg">
             </div>
         </div>
-
+        <div class="container contback">
+            <div class="container contact">
+                <h2>CONTACT US</h2>
+            </div>
+            <div class="container form">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" placeholder="Name" class="form-control" style="background-color:transparent">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <textarea id="autoResizeTA" class="form-control" rows="5" style="height: 90px;"></textarea>
+            </div>
+        </div>
+        <div class="container contact">
+            <img src="images/twitter.png">
+            <img src="images/dribble.png">
+            <img src="images/facebook.png">
+            <img src="images/g_plus.png">
+            <img src="images/skype.png">
+            <img src="images/stumble_upon.png">
+            <img src="images/behance.png">
+            <img src="images/flickr.png">
+            <img src="images/pinterest.png">
+        </div>
+        <div class="container footer">
+            <p>DELANI STUDIO <br>2019<br></p>
+        </div>
     </div>
+    <script src="js/main.js"></script>
+    <script>
+        $("document").ready(function() {
+            $(".design-toggle").click(function() {
+                $("#design").toggle();
+
+                
+                
+            });
+        });
+    </script>
 </body>
 
 </html>

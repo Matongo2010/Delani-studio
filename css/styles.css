@@ -1,22 +1,30 @@
 @import url("bootstrap.css");
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 
-
+h1, h2, h3, p{
+    text-align: center;
+}
 
 .background{
     background-image: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg');
 
     background-size: cover;
     background-repeat: no-repeat;
-    height: px;
+    height: 100%;
     color: white;
-
 }
+
+.container{
+    text-align: center;
+}
+
 h1{
     padding-top: 100px;
-}
-
-h1,p{
-    text-align: center;
 }
 
 .services{
@@ -24,6 +32,33 @@ h1,p{
 
     color: white;
 
+}
+div .dev{
+    vertical-align: middle;
+}
+
+div .footer{
+    text-align: center;
+}
+
+.col-6{
+    float: left;
+}
+
+.col-12{
+    float: right;
 
 }
 
+div .contback{
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+div .form{
+    text-decoration: none;
+}
+
+#design, #development, #product{
+    display: none;
+}
