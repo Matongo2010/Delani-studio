@@ -93,14 +93,15 @@ cursor: pointer;
     padding-bottom: 30px;
 
 }
-div .card{
+.card-deck .card{
     position: relative;
 }
-
-div .card :not(img){
+.card-deck .card #head{
     position: absolute;
     z-index: 1;
-    top: 25px;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
 }
 
 div .form{
@@ -111,9 +112,6 @@ div .contact{
     padding-top: 4px
 }
 
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> b710869fb0de9ad53690cc3763422d493a2d403a
+#head{
+    display: none;
+}
