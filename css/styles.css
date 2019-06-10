@@ -97,6 +97,12 @@ div .card{
     position: relative;
 }
 
+div .card :not(img){
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+}
+
 div .form{
     padding-bottom: 5px
 }
@@ -104,3 +110,5 @@ div .form{
 div .contact{
     padding-top: 4px
 }
+
+
