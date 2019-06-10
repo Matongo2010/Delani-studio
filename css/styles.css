@@ -1,9 +1,17 @@
 @import url("bootstrap.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body,html{
     margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
+    
 }
 
 h1, h2, h3, p{
@@ -61,4 +69,38 @@ div .form{
 
 #design, #development, #product{
     display: none;
+}
+
+.design-toggle, .development-toggle, .product-toggle:hover{
+cursor: pointer;
+}
+
+#mouse{
+    animation: wyci 5000 linear infinite;
+}
+
+#mpango{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 5px;
+    padding-bottom: 20px;
+
+}
+#mpango2{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    padding-top: 20px;
+
+}
+div .card{
+    position: relative;
+}
+
+div .form{
+    padding-bottom: 5px
+}
+
+div .contact{
+    padding-top: 4px
 }

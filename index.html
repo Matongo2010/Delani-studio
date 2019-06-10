@@ -13,13 +13,27 @@
 <body>
     <div class="background">
         <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
             <img src="images/logo.png">
             <h1>WELCOME <br>TO DELANI STUDIO<br></h1>
             <p>AMAZING PEOPLE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</p>
-            <img src="images/mouse_click.png">
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="images/mouse_click.png" id="mouse">
+            <br>
+            <br>
+            <br>
+
 
         </div>
     </div>
+    <br>
+    <br>
     <h2>ABOUT US</h2>
     <p>When you work with us, you ar</div>e part of a team of committed collaborators. All aspects of our software
         development
@@ -27,13 +41,26 @@
     <p>Our approach unifies design,development and product management to create exceptional products.</p>
     <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>
     <p>Then we help translate them into effective and elegant solutions.</p>
+    <br>
+    <br>
+
     <div class="services">
+        <br>
+        <br>
+        <br>
         <h2>SERVICES</h2>
         <p>Before we sign a contract or write a line of code our team will spend the necessary time needed pto
             understand your product vision.</p>
         <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
         <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
+    <br>
+    <br>
     <H2>WHAT WE DO</H2>
     <br>
     <br>
@@ -56,7 +83,8 @@
             </div>
 
             <h3>DEVELOPMENT</h3>
-            <p id="development">All engineers are fluent in the latest, mobile and web development technologies. They collaborate with
+            <p id="development">All engineers are fluent in the latest, mobile and web development technologies. They
+                collaborate with
                 your team to write, test and omprove code on daily basis, using proven practices such as test-driven
                 development and pair programming.</p>
 
@@ -67,44 +95,57 @@
             </div>
 
             <h3>PRODUCT MANAGEMENT</h3>
-            <p id="product">Planning ad development iteretive. Because we are constantly coding and testing, the product we build are
+            <p id="product">Planning ad development iteretive. Because we are constantly coding and testing, the product
+                we build are
                 always to go live. This iteretive process allows for changes as business requirements evolve.</p>
 
         </div>
         <div class="container">
             <h2>PORTIFOLIO</h2>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <img src="images/work4.jpg">
-                <link rel="stylesheet" href="script.js"></div>
-            <div class="col-3">
-                <img src="images/work3.jpg">
-            </div>
-            <div class="col-3">
-                <img src="images/work2.jpg">
-            </div>
-            <div class="col-3">
-                <img src="images/work1.jpg">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <img src="images/work5.jpg">
-            </div>
-            <div class="col-3">
-                <img src="images/work6.jpg">
-            </div>
-            <div class="col-3">
-                <img src="images/work7.jpg">
-            </div>
+        
+        <br />
+        <div class="row" id="mpango">
 
-            <div class="col-3">
-                <img src="images/work8.jpg">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/work4.jpg" class="img-fluid">
+                </div>
+                <div class="card">
+                    <img src="images/work3.jpg" class="img-fluid">
+                </div>
+                <div class="card">
+                    <img src="images/work2.jpg" class="img-fluid">
+                </div>
+                <div class="card">
+                    <img src="images/work1.jpg" class="img-fluid">
+                </div>
+
+
+            </div>
+            <div class="row" id="mpango2">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="images/work5.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/work6.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/work7.jpg" class="img-fluid">
+                    </div>
+
+                    <div class="card">
+                        <img src="images/work8.jpg" class="img-fluid">
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
         <div class="container contback">
+
             <div class="container contact">
+
                 <h2>CONTACT US</h2>
             </div>
             <div class="container form">
@@ -113,16 +154,27 @@
                         <input type="text" placeholder="Name" class="form-control" style="background-color:transparent">
                     </div>
                     <div class="col-6">
-                        <input type="text" placeholder="Email" class="form-control">
+                        <input type="text" placeholder="Email" class="form-control"
+                            style="background-color: transparent">
                     </div>
                 </div>
             </div>
             <div class="col-12">
-                <textarea id="autoResizeTA" class="form-control" rows="5" style="height: 90px;"></textarea>
+                <textarea id="autoResizeTA" class="form-control" style="background-color: transparent" rows="5"
+                    style="height: 90px;"></textarea>
+                <br>
+                <br>
+
+
             </div>
+            <input id="button" type="submit">
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
         <div class="container contact">
-            <img src="images/twitter.png">
+            <img id="twitter" src="images/twitter.png">
             <img src="images/dribble.png">
             <img src="images/facebook.png">
             <img src="images/g_plus.png">
@@ -135,28 +187,37 @@
         <div class="container footer">
             <p>DELANI STUDIO <br>2019<br></p>
         </div>
+
     </div>
     <script src="js/main.js"></script>
     <script>
-        $("document").ready(function() {
-            $(".design-toggle").click(function() {
-                $("#design").toggle();
+        $("document").ready(function () {
+            $(".design-toggle").click(function () {
+                $("#design").toggle(1000);
 
-  
+
             });
 
-            $(".development-toggle").click(function() {
-                $("#development").toggle();
-                
-  
+            $(".development-toggle").click(function () {
+                $("#development").toggle(1000);
+
+
             });
 
-            $(".product-toggle").click(function() {
-                $("#product").toggle();
-                
-  
+            $(".product-toggle").click(function () {
+                $("#product").toggle(1000);
+
+
             });
         });
+
+    $("document").ready(function(){
+        $("#button").click(function(){
+            alert("Thank you for reaching out to us")
+        })
+    })
+
+        
     </script>
 </body>
 
