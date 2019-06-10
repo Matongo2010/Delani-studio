@@ -106,6 +106,71 @@ cursor: pointer;
     z-index: 1;
 }
 
+.card #one{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #two{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #three{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #four{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #five{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #six{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #seven{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.card #eight{
+    position: absolute;
+    padding-top: 65px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+
 div .form{
     padding-bottom: 5px
 }
