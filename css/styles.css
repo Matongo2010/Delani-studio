@@ -87,10 +87,10 @@ cursor: pointer;
 
 }
 #mpango2{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding: 5px;
-    padding-top: 20px;
+    padding-bottom: 30px;
 
 }
 div .card{
